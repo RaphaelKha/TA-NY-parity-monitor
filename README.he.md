@@ -35,7 +35,7 @@ g_t \;=\; 10^4 \left( \frac{P^{\mathrm{NY}}_t}{\dfrac{k \, P^{\mathrm{TA}}_t}{10
 </div>
 
 ```math
-d_t \;=\; g_t \;-\; \operatorname{median}\left(g_{t-300}, \dots, g_{t-1}\right)
+d_t \;=\; g_t \;-\; \mathrm{median}\left(g_{t-300}, \dots, g_{t-1}\right)
 ```
 
 <div dir="rtl">
@@ -45,7 +45,7 @@ d_t \;=\; g_t \;-\; \operatorname{median}\left(g_{t-300}, \dots, g_{t-1}\right)
 </div>
 
 ```math
-|d_s| > c \quad\text{and}\quad \operatorname{sign}(d_s) \text{ constant} \qquad \text{for all } s \in [t,\, t+2], \qquad c \in \{20, 40, 60\} \text{ bp}
+|d_s| > c \quad\text{and}\quad \mathrm{sign}(d_s) \text{ constant} \qquad \text{for all } s \in [t,\, t+2], \qquad c \in \{20, 40, 60\} \text{ bp}
 ```
 
 <div dir="rtl">
